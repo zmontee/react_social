@@ -1,0 +1,13 @@
+.pages {
+    color: #041226;
+}
+
+.pages span {
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.selectedPage {
+    font-weight: bold;
+    font-size: 17px;
+}

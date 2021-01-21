@@ -1,0 +1,13 @@
+.dialog {
+
+}
+
+.dialog a {
+    font-size: 18px;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.active {
+    font-size: 22px;
+}

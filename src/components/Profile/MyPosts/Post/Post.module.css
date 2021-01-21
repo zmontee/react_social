@@ -1,0 +1,26 @@
+.post {
+    width: 400px;
+    height: 90px;
+    background-color: lightblue;
+    padding: 10px;
+    color: darkcyan;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+}
+
+.postDesc {
+    position: relative;
+}
+
+.likes {
+    color: darkslateblue;
+    padding-left: 150px;
+    position: absolute;
+    bottom: 2px;
+}
+
+.postUserPhotoWrapper img {
+    width: 60px;
+    border-radius: 50%;
+}

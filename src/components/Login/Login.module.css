@@ -1,0 +1,9 @@
+.loginHeader {
+    color: #22A7CC;
+    font-size: 30px;
+    text-align: center;
+}
+
+.loginCheckbox {
+    display: flex;
+}

@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  z-index: 1;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  padding: 2px 300px 0 220px;
+  grid-area: h;
+  background-color: #304159;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.logo {
+  width: 220px;
+}
+
+.header .logo a {
+  text-decoration: none;
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header img {
+  width: 55px;
+}
+
+.header .logo_name {
+  margin-left: 10px;
+  width: 110px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #4FDAE1;
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  margin-top: 11px;
+  margin-left: 500px;
+  width: 50px;
+  height: 10px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #22A7CC;
+  font-size: 20px;
+}
+.login a:hover {
+  text-decoration: underline;
+}
+
+.userAuth {
+  width: 100%;
+}
+
+.userAuthName {
+  color: #22A7CC;
+  font-size: 20px;
+}
+
+.logout {
+  border: none;
+  display: block;
+  margin: 0 auto;
+  background-color: #041226;
+  color: #fff;
+  font-size: 12px;
+  height: 19px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+

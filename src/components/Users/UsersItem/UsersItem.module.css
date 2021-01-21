@@ -1,0 +1,67 @@
+.userWrapper {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.userPhotoWrapper {
+    width: 75px;
+}
+
+.userDescrWrapper {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8px 0 8px;
+    border: 2px solid #041226;
+    border-radius: 10px;
+}
+
+.userName {
+    color: #041226;
+    font-size: 20px;
+}
+
+.userDescrItem {
+    position: relative;
+}
+
+.userDescrItem a {
+    text-decoration: none;
+}
+
+.userDescrItem a:hover {
+    font-weight: 600;
+    color: #041226;
+}
+
+.userStatus {
+    margin-left: 30px;
+    color: #22A7CC;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.userFollow {
+    width: 65px;
+}
+
+.userCountry {
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+    color: #041226;
+}
+
+.userCity {
+    color: #041226;
+}
+
+.userWrapper .userPhoto {
+
+}
+
+.userWrapper .userPhoto img {
+    width: 65px;
+}
